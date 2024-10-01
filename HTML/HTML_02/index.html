@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this page is for form">    
+    <title>Form</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="/submit" method="post">
+        <label for="name"> name:</label>
+        <input type="text" id="name"> 
+        <label for="surname">surname:</label>
+        <input type="text" id="surname">
+        <br>
+        <br>
+        sex:
+        <br>
+        
+        <label for="">male</label>
+        <input type="radio" name="choice" value="option1">
+        
+        <label for="">female</label>
+        <input type="radio" name="choice" value="option2">
+        <br><br>
+        enter birthday: 
+        <input type="date">
+        <br><br>
+        enter age:
+        <input type="number" min="18" max="99">
+        <br><br>
+        Which languages do you know?
+        <br>
+        <label for="">Azerbaijan</label>
+        <input type="checkbox" id="languages">
+        <label for="">English</label>
+        <input type="checkbox" id="languages">
+        <label for="">Russian</label>
+        <input type="checkbox" id="languages">
+        <br><br>
+        choose your branch: 
+        <select name="branch">
+            <option value="Backend Developer">Backend Developer</option>
+            <option value="Frontend Developer">Frontend Developer</option>
+            <option value="FullStack Developer">FullStack Developer</option>
+        </select>
+        <br><br><br>
+        
+        <label for="myfile">Select a picture:</label>
+        <input type="file" id="myfile" name="myfile">
+        <br><br><br>
+        <label for="meettime">Choose a meet time: </label>
+        <input type="time" id="time">
+        <br><br><br>
+
+
+        <label for="color">Which is your favorite color: </label>
+        <input type="color">
+        <br><br><br>
+        <label for="description">Descripe yourself: </label>
+        <br>
+        <textarea id="w3review" name="w3review" rows="4" cols="50">
+            
+        </textarea>
+        <br><br>
+        <button>sumbit</button>
+        <button>send</button>
+
+        
+    
+    
+    
+    
+    
+    </form>
+</body>
+</html>
